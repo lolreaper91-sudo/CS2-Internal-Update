@@ -1,0 +1,28 @@
+# Visual Studio files
+.vs/
+x64/
+Internal Base/x64/
+Loader/x64/
+*.pdb
+*.recipe
+*.log
+*.tlog
+*.obj
+*.iobj
+*.ipdb
+*.ifc
+
+# Compiled binaries (we only want the one in root)
+Loader/Loader.exe
+Internal Base/Internal Base.dll
+
+# Only allow these files in the root for the update repo
+*
+!Loader.exe
+!version.txt
+!.gitignore
+!DEPLOY_UPDATE.bat
+!ConvertDll.ps1
+!Internal Base/
+!Loader/
+!Internal Base.sln
